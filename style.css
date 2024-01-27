@@ -3,7 +3,7 @@ body{
 }
 
 .logo{
-    /* display: flex; */
+    display: flex;
     width: 295px;
     height: 41px;
     justify-content: center;
