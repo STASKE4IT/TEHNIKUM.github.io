@@ -1,0 +1,293 @@
+body{
+        background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    /* display: flex; */
+    width: 295px;
+    height: 41px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    position: absolute;
+    top: 37px;
+    left: 121px;
+    bottom: 621px;
+    right: 864px;
+}
+
+.triple{
+    display: flex;
+
+    position: absolute;
+    top: 121px;
+    left: 827px;
+    right: 58px;
+    bottom: 261px;
+    width: 395px;
+    height: 319px;
+    flex-shrink: 0;
+}
+
+.courseinfo{
+    display: flex;
+}
+
+.start{
+    font-family: "TT Hoves";
+    position: absolute;
+    top: 163px;
+    bottom: 475px;
+    left: 121px;
+    right: 1059px;
+}
+
+.dlit{
+    position: absolute;
+    top: 163px;
+    bottom: 475px;
+    left: 382px;
+    right: 671px;
+}
+.verx{
+    display: block;
+    color: var(--typo-black, #222);
+/* caption */
+font-family: "TT Hoves";
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 29.4px */
+}
+.niz{
+    color: var(--typo-black, #222);
+font-family: "TT Hoves";
+src: url();
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 29.4px */
+}
+
+h1{
+    position: absolute;
+    top: 302px;
+    bottom: 311px;
+    left: 112px;
+    right: 390px;
+    font-family: chava;
+    width: 778px;
+    color: var(--typo-black, #222);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 88px */
+}
+
+p{
+    position: absolute;
+    top: 430px;
+    bottom: 81px;
+    left: 121px;
+    right: 229px;
+    color: var(--typo-black, #222);
+    font-family: Hoves;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 37.8px */
+}
+
+.btnp{
+    display: block;
+    width: 328px;
+    padding: 20px 0px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 30px;
+
+    border-radius: 12px;
+    background:#6E3ABA;
+
+    position: absolute;
+    top: 640px;
+    bottom: 0px;
+    left: 121px;
+    right: 831px;
+
+    text-align: center;
+    
+    flex: 1 0 0;
+    color: var(--typo-white, #FFF);
+    text-align: center;
+    font-family: "TT Hoves";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.btnw{
+    display: block;
+    width: 328px;
+    padding: 20px 0px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+
+    border-radius: 12px;
+    border: 1px solid #6E3ABA;
+
+    position: absolute;
+    top: 640px;
+    bottom: 0px;
+    left: 479px;
+    right: 473px;
+   
+    color: #6E3ABA;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+/* Для смартфонов */
+@media (max-width: 377px){
+    body{
+        background-color:rgb(255, 255, 255);
+    }
+    .logo{
+        position: absolute;
+        top: 40px;
+        bottom: 672px;
+        left: 24px;
+        right: 136.86px;
+
+        display: flex;
+        width: 215.135px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .triple{
+        position: absolute;
+        top: 77px;
+        bottom: 521px;
+        left: 195.5px;
+        right: 3.5px;
+
+        width: 179px;
+        height: 144px;
+        flex-shrink: 0;
+        background: url(<path-to-image>), rgb(255, 255, 255) 50% / cover no-repeat;
+    }
+
+    .start{
+        position: absolute;
+        top: 98px;
+        bottom: 600px;
+        left: 24px;
+        right: 276px;
+
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dlit{
+        position: absolute;
+        top: 172px;
+        bottom: 526px;
+        left: 24px;
+        right: 179px;
+
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .verx{
+        color: var(--typo-black, #222);
+       font-family: "TT Hoves";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 22.4px */
+    }
+
+    .niz{
+        color: var(--typo-black, #222);
+        font-family: "TT Hoves";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%; /* 22.4px */
+    }
+
+    p{
+        position: absolute;
+        top: 330px;
+        bottom: 162px;
+        left: 24px;
+        right: 24px;
+
+        width: 328px;
+
+        color: var(--typo-black, #222);
+        font-family: "TT Hoves";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 140%; /* 25.2px */
+    }
+    .btnp{
+        position: absolute;
+        top: 600px;
+        bottom: 81px;
+        left: 24px;
+        right: 24px;
+
+        display: flex;
+        width: 328px;
+        padding: 20px 0px;
+        align-items: flex-start;
+        gap: 10px;
+
+        text-align: center;
+    }
+    
+    .btnw{
+        position: absolute;
+        top: 681px;
+        bottom: 0;
+        left: 24px;
+        right: 24px;
+
+        display: flex;
+        width: 328px;
+        padding: 20px 0px;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    h1{
+        position: absolute;
+        top: 264px;
+        bottom: 432px;
+        left: 19px;
+        right: 24px;
+
+        width: 333px;
+        color: var(--typo-black, #222);
+        font-family: Chava;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%; /* 46.2px */
+    }
+}
